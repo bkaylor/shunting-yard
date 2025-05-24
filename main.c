@@ -353,7 +353,7 @@ int tokenize(char *input_buffer, Token *token_buffer)
         }
         else
         {
-            printf("Invalid character! What is a \"%c\"(%d)?", *cursor, *cursor);
+            printf("Invalid character! What is a \"%c\"(%d)?\n", *cursor, *cursor);
             return token_count;
         }
     }
